@@ -8,4 +8,50 @@
 /*Ingredientes */
 /*Programación */
 /*estudio nutricional */
-body{background-color: fuchsia;};
+
+*{box-sizing: border-box;} /*indica que el width de cada box sera contando el borde hacia adentro*/
+body{background-color: rgb(255, 119, 0);
+background-image: url(../img/fondo.jpg);}
+
+@font-face {
+        font-family: letranormal;
+        src: url(../fonts/Creative\ Wonder.otf);
+
+}
+@font-face {
+        font-family: letramal;
+        src: url(../fonts/Gioties-Regular.otf);
+}
+#wrapper { 
+        background-color: white;
+        
+        width: 80%;
+        margin:auto;
+        padding: 3%;
+}
+
+
+
+h1,h2{
+        
+        font-family: letranormal;
+        text-align: center;
+        border-bottom:2px solid red;
+        width: 80%;
+        margin: auto;
+        padding: 5px;
+        margin-bottom:40px;
+        
+        
+}
+
+ul{
+        background-color: aqua;    
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+blockquote{
+        font-family: letramal;
+        margin-left:10%;
+}
+
