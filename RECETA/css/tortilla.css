@@ -11,7 +11,7 @@
 
 *{box-sizing: border-box;} /*indica que el width de cada box sera contando el borde hacia adentro*/
 body{background-color: rgb(255, 119, 0);
-background-image: url(../img/fondo.jpg);}
+background-image: url(../img/fondouwu.jpg);}
 
 @font-face {
         font-family: letranormal;
@@ -20,7 +20,7 @@ background-image: url(../img/fondo.jpg);}
 }
 @font-face {
         font-family: letramal;
-        src: url(../fonts/Gioties-Regular.otf);
+        src: url(../fonts/Roboto-Regular.ttf);
 }
 #wrapper { 
         background-color: white;
@@ -28,7 +28,9 @@ background-image: url(../img/fondo.jpg);}
         width: 80%;
         margin:auto;
         padding: 3%;
+        border-radius: 10%;
 }
+
 
 
 
@@ -46,12 +48,32 @@ h1,h2{
 }
 
 ul{
-        background-color: aqua;    
+        list-style-image: url(../img/pizzabuttonxd.png);
         margin-left: 10%;
-        margin-right: 10%;
+        margin-right: 10%;   
     }
+
+ul p{
+        margin-top: 4%
+}
+
+
+li{
+        margin-top: 10px;
+}
+
+ol{
+        
+        margin-left: 10%;
+        margin-right: 10%;   
+}
+
 blockquote{
         font-family: letramal;
         margin-left:10%;
 }
 
+a{
+        text-align: center;
+        margin-left: 50%;
+}
