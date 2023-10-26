@@ -20,7 +20,11 @@ background-image: url(../img/fondouwu.jpg);}
 }
 @font-face {
         font-family: letramal;
-        src: url(../fonts/Roboto-Regular.ttf);
+        src: url(../fonts/Ldfcomicsansbold-zgma.ttf);
+}
+@font-face {
+        font-family: comicitalic;
+        src: url(../fonts/comic-sans-ms-bold-italic.ttf);
 }
 #wrapper { 
         background-color: white;
@@ -48,11 +52,12 @@ h1,h2{
         margin: auto;
         padding: 5px;
         margin-bottom:40px;
-        
+        text-shadow: 2px 2px #F1BF00;
         
 }
 
 ul{
+        font-family: letramal;
         list-style-image: url(../img/pizzabuttonxd.png);
         margin-left: 10%;
         margin-right: 10%;   
@@ -68,20 +73,30 @@ li{
 }
 
 ol{
-        
+        font-family: letramal;
+        margin-left: 8%;
+        margin-right: 10%;   
+}
+
+dl{
+        font-family: letramal;
         margin-left: 10%;
         margin-right: 10%;   
 }
 
-blockquote{
-        font-family: letramal;
-        margin-left:10%;
-}
-
-a{
-        
-        
+dl a{ 
+        padding-top: 10px;
+        text-align: center;
         display:block;
         margin:auto;
         
 }
+
+
+blockquote{
+        text-align: center;
+        font-family: comicitalic;
+        
+}
+
+
