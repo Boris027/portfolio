@@ -31,7 +31,12 @@ background-image: url(../img/fondouwu.jpg);}
         border-radius: 10%;
 }
 
-
+#pizza{display:block; /*convierte la imagen en un bloque*/
+        margin:auto; /*centra la imagen*/
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 50%; /*ajusta el tamaño de la imagen*/
+}
 
 
 h1,h2{
@@ -76,7 +81,7 @@ blockquote{
 a{
         
         
-        
-        margin-left: 47%;
+        display:block;
+        margin:auto;
         
 }
