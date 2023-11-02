@@ -99,4 +99,13 @@ blockquote{
         
 }
 
+@media only screen and (width<800px){ /*corte para una tablet*/ 
+        
+        #wrapper {width: 95%}
+        h1,h2 {width: 95%;}
+}
 
+@media only screen and (width<600px){ /*corte para un movil*/
+h1 {font-size: 2.5em;}
+h1 {font-size: 1.5em;}
+}
