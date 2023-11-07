@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <link rel="stylesheet" href="./css/halloween2.css">
+    <script src="./js/halloween2.js"></script>
+</head>
+<body>
+    <div id="scenario">
+        <p>Música</p>
+        <img src="./img/wallpaperwapo2.jpg" alt="fotowapa">
+
+
+        <div id="botonmusic" onclick="sound('musicafondo')"onmouseover="silence('musicafondo')">
+
+        </div>
+
+
+        <audio id="musicafondo">
+            <source src="./sound/3 Minute Halloween Timer with Spooky Sounds Trim.mp3" type="audio/mp3">
+        </audio>  
+
+
+
+        <div id="puerta" onclick="sound('chirrido')" >
+        </div>
+
+
+        <audio id="chirrido">
+            <source src="./sound/chirrido.mp3" type="audio/mp3">
+        </audio>
+    
+
+
+        <div id="ventana" onmouseover="show('fant2');sound('soundfantasma')" onmouseout="hide('fant2');silence('soundfantasma')">
+        
+
+
+        <div id="fant">
+            <img id="fant2" src="./img/fantasma.gif" alt="uwu">
+        </div>
+
+        <audio id="soundfantasma">
+            <source src="./sound/sound fantasma.mp3" type="audio/mp3">
+        </audio>    
+        
+
+        
+
+
+
+    </div>
+
+
+
+
+    
+</body>
+</html>
