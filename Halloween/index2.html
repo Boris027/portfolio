@@ -6,14 +6,19 @@
     <title>Halloween</title>
     <link rel="stylesheet" href="./css/halloween2.css">
     <script src="./js/halloween2.js"></script>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
 <body>
     <div id="scenario">
-        <p>Música</p>
+        <p id="uwu">Música</p>
         <img src="./img/wallpaperwapo2.jpg" alt="fotowapa">
 
 
-        <div id="botonmusic" onclick="sound('musicafondo')"onmouseover="silence('musicafondo')">
+        <div id="botonmusic" onclick="sound('musicafondo'),hide('botonmusic'),show('botonmusic2')">
+
+        </div>
+
+        <div id="botonmusic2" onclick="stop('musicafondo'),hide('botonmusic2'),show('botonmusic')">
 
         </div>
 
@@ -34,7 +39,7 @@
     
 
 
-        <div id="ventana" onmouseover="show('fant2');sound('soundfantasma')" onmouseout="hide('fant2');silence('soundfantasma')">
+        <div id="ventana" onmouseover="show('fant2'),sound('soundfantasma')" onmouseout="hide('fant2'),silence('soundfantasma')">
         
 
 
@@ -45,15 +50,34 @@
         <audio id="soundfantasma">
             <source src="./sound/sound fantasma.mp3" type="audio/mp3">
         </audio>    
+        </div>
+
+        <div id="lampara" onclick="sound('fuego')">
+            
+        </div>
+
+        <div id="lampara2" onclick="sound('fuego')">
+        
+        </div>
+
+        <audio id="fuego">
+            <source src="./sound/audio fuego brasero.mp3">
+        </audio>
         
 
         
-
 
 
     </div>
 
+    <div id="brujauwu" onclick="sound('risabruja')">
+        <img id="bruja" src="./img/bruja.png" alt="">
+    </div>
 
+    <audio id="risabruja">
+        <source src="./sound/risa bruja.mp3">
+    </audio>
+    
 
 
     

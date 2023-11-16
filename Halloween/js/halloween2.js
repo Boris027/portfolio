@@ -1,6 +1,11 @@
 function sound(element){
     document.getElementById(element).play();
 }
+
+function stop(element){
+    document.getElementById(element).pause();
+}
+
 function silence(element){
     document.getElementById(element).pause();
 }

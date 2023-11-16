@@ -43,20 +43,64 @@ width: 1550px;
 }
 
 #botonmusic{
+    border: 2px solid rgb(138, 187, 24);
+    visibility: visible;
     position: absolute;
     width: 50px;
     height: 30px;
-    bottom: 820px;
-    right: 1380px;
+    bottom: 825px;
+    right: 1385px;
+    
+    
+}
+
+#botonmusic2{
+    border: 2px solid rgb(138, 187, 24);
+    visibility: hidden;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    bottom: 825px;
+    right: 1385px;
     
     
 }
 
 #scenario p{
+    visibility: visible;
     position: absolute;
     left: 60px;
-    border: 2px solid rgb(138, 187, 24);
+    
     padding: 5px;
     color: blueviolet;
     
 }
+
+#lampara{
+    position: absolute;
+    width: 70px;
+    height: 110px;
+    bottom: 555px;
+    left: 310px;
+    border: 3px solid rgb(146, 214, 20)
+
+}
+
+#lampara2{
+    position: absolute;
+    width: 70px;
+    height: 110px;
+    bottom: 555px;
+    right: 275px;
+    border: 3px solid rgb(146, 214, 20)
+
+}
+
+#bruja{
+    position:absolute;
+    width: 130px;
+    top:10px;
+    left:630px;
+    right: 1000px;
+}
+
