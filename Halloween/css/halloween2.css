@@ -13,6 +13,13 @@
     font-style: bold;
 }
 
+@font-face{
+    font-family: 'Terror3';
+    src: url(../fonts/MortifiedDrip.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
 
 
 body{
@@ -171,4 +178,15 @@ width: 1550px;
     right: -500px;
     font-size: 90px;
     color: rgb(175, 190, 38);
+}
+
+#textoterror3{
+    font-family: 'Terror3';
+    position: absolute;
+    width: 1000px;
+    height: 130px;
+    bottom: -100px;
+    right: -800px;
+    font-size: 90px;
+    color: rgb(56, 190, 38);
 }
