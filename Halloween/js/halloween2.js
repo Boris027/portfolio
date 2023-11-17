@@ -18,3 +18,13 @@ function show(element){
 function hide(element){
     document.getElementById(element).style.visibility="hidden";
 }
+
+function show2(element) {
+    // Mostrar el elemento
+    document.getElementById(element).style.visibility = "visible";
+
+    // Ocultar el elemento después de 5 segundos
+    setTimeout(function() {
+        document.getElementById(element).style.visibility = "hidden";
+    }, 4000); // 5000 milisegundos = 5 segundos
+}

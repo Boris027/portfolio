@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Terror';
+    src: url(../fonts/October\ Crow.ttf);
+    font-weight: bold;
+    font-style: bold;
+    
+}
+
+@font-face{
+    font-family: 'Terror2';
+    src: url(../fonts/sdhauntedhouse_demo.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+
 body{
     background-color: black;
 }
@@ -115,8 +132,8 @@ width: 1550px;
     visibility: hidden;
     position: absolute;
     width: 1200px;
-    top:-930px;
-    right: 200px;
+    top:-920px;
+    right: 100px;
 }
 
 #sangre{
@@ -125,3 +142,33 @@ width: 1550px;
     position: absolute;
 }
 
+#ventanajumpscare{
+    position: absolute;
+    width: 80px;
+    height: 110px;
+    bottom: 410px;
+    right: 660px;
+    border: 3px solid rgb(146, 214, 20)
+}
+
+#textoterror{
+    font-family: 'Terror';
+    position: absolute;
+    width: 1000px;
+    height: 130px;
+    bottom: 650px;
+    right: -350px;
+    font-size: 90px;
+    color: brown;
+}
+
+#textoterror2{
+    font-family: 'Terror2';
+    position: absolute;
+    width: 1000px;
+    height: 130px;
+    bottom: 550px;
+    right: -500px;
+    font-size: 90px;
+    color: rgb(175, 190, 38);
+}
