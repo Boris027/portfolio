@@ -96,11 +96,32 @@ width: 1550px;
 
 }
 
+
+
+#brujita{
+    width: 1500px;
+    margin: auto;
+    position: relative;
+}
 #bruja{
     position:absolute;
     width: 130px;
-    top:10px;
-    left:630px;
+    top:-880px;
+    left:510px;
     right: 1000px;
+}
+
+#jumpscare{
+    visibility: hidden;
+    position: absolute;
+    width: 1200px;
+    top:-930px;
+    right: 200px;
+}
+
+#sangre{
+    width: 1500px;
+    margin: auto;
+    position: absolute;
 }
 

@@ -9,6 +9,10 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
 <body>
+
+    
+
+
     <div id="scenario">
         <p id="uwu">Música</p>
         <img src="./img/wallpaperwapo2.jpg" alt="fotowapa">
@@ -39,7 +43,7 @@
     
 
 
-        <div id="ventana" onmouseover="show('fant2'),sound('soundfantasma')" onmouseout="hide('fant2'),silence('soundfantasma')">
+        <div id="ventana" onmouseover="show('fant2'),sound('soundfantasma')" onmouseout="hide('fant2'),stop('soundfantasma')">
         
 
 
@@ -52,11 +56,11 @@
         </audio>    
         </div>
 
-        <div id="lampara" onclick="sound('fuego')">
+        <div id="lampara" onmouseover="sound('fuego')" onmouseout="stop('fuego')">
             
         </div>
 
-        <div id="lampara2" onclick="sound('fuego')">
+        <div id="lampara2" onmouseover="sound('fuego')" onmouseout="stop('fuego')">
         
         </div>
 
@@ -70,13 +74,24 @@
 
     </div>
 
-    <div id="brujauwu" onclick="sound('risabruja')">
-        <img id="bruja" src="./img/bruja.png" alt="">
-    </div>
+    <div id="brujita">
 
-    <audio id="risabruja">
-        <source src="./sound/risa bruja.mp3">
-    </audio>
+        <div id="brujauwu" onclick="sound('risabruja')">
+            <img id="bruja" src="./img/bruja.png" alt="">
+        </div>
+    
+        <audio id="risabruja">
+            <source src="./sound/risa bruja.mp3">
+        </audio>
+
+        <img id="jumpscare" src="./img/jumpscare.webp" alt="">
+
+
+        
+    </div>
+    
+    
+        
     
 
 
