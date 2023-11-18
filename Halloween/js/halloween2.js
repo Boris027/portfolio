@@ -28,3 +28,13 @@ function show2(element) {
         document.getElementById(element).style.visibility = "hidden";
     }, 4000); // 5000 milisegundos = 5 segundos
 }
+
+function caja(element){
+    document.getElementById(element).style.border="3px solid yellow";
+    
+}
+
+function caja2(element){
+    document.getElementById(element).style.border="0px solid yellow";
+    
+}
