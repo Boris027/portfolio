@@ -26,14 +26,17 @@ body{
     background-color: black;
 }
 
+
+
 #scenario{
     background-color: aliceblue;
     width: 1500px;
     margin: auto;
     position: relative;
-    
+    visibility: visible;
 }
-#scenario img{
+
+#wallpaper{
 display: block;
 width: 1550px;
 
@@ -60,8 +63,8 @@ width: 1550px;
 #fant img {
     position:absolute;
     width: 100px;
-    top:-170px;
-    left:100px;
+    top:350px;
+    left:750px;
     right: 1000px;
     visibility: hidden;
 }
@@ -219,6 +222,8 @@ width: 1550px;
     right: -350px;
     font-size: 90px;
     color: brown;
+    animation-name: siniestro;
+    animation-duration: 7s;
 }
 
 #textoterror2{
@@ -230,6 +235,15 @@ width: 1550px;
     right: -500px;
     font-size: 90px;
     color: rgb(175, 190, 38);
+    animation-name: cambiocolor;
+    animation-duration: 20s;
+}
+
+@keyframes cambiocolor{
+    20%{color: aquamarine;}
+    40%{color: rgb(59, 59, 209);}
+    60%{color: rgb(119, 53, 182);}
+    90%{color: rgb(202, 146, 42);}
 }
 
 #textoterror3{
@@ -241,4 +255,65 @@ width: 1550px;
     right: -800px;
     font-size: 90px;
     color: rgb(56, 190, 38);
+}
+
+
+@keyframes siniestro{
+    50%{
+        color: aqua;
+        font-size: 150px;
+        width: 1500px;
+        bottom: 300px;
+        right: -250px;
+    }
+    
+}
+
+#circulo{
+    visibility: hidden;
+    position: absolute;
+    color: aqua;
+    animation-name: siniestro2;
+    animation-duration: 5s;
+    top:-100px;
+    right: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes siniestro2{
+
+25%{
+    top:-110px;
+    right: 45px;;
+}
+50%{
+    top: -90px;
+    right: 20px;
+}
+75%{
+    top:-80px;
+    right: 30px;
+}
+}
+
+
+#risamovimiento{
+    font-family:'Terror2' ;
+    position: absolute;
+    color: brown;
+    font-size: 30px ;
+    top: -15px;
+    left: 480px;
+    animation-name: risamovimiento;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes risamovimiento{
+40%{
+    transform: rotate(15deg);
+}
+75%{
+    transform: rotate(-15deg);
+}
 }

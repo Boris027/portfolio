@@ -9,16 +9,20 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
 <body>
-
     
-
-
+    
     <div id="scenario">
+
         <p id="uwu">Música</p>
         <p id="pista">Pista</p>
+        <p id="risamovimiento">JAJAJA</p>
+        <p id="textoterror">La Casa Del Terror</p>
+        <p id="textoterror2">Episodio final</p>
+        <p id="textoterror3">Boris</p>
+        <p id="circulo">hola</p>
 
         
-        <img src="./img/wallpaperwapo2.jpg" alt="fotowapa">
+        <img id="wallpaper" src="./img/wallpaperwapo2.jpg" alt="fotowapa">
 
 
         <div id="botonmusic" onclick="sound('musicafondo'),hide('botonmusic'),show('botonmusic2')">
@@ -37,36 +41,19 @@
 
         </div>
 
-
-
-        <audio id="musicafondo">
-            <source src="./sound/3 Minute Halloween Timer with Spooky Sounds Trim.mp3" type="audio/mp3">
-        </audio>  
-
-
-
         <div id="puerta" onclick="sound('chirrido')" >
+            
         </div>
-
-
-        <audio id="chirrido">
-            <source src="./sound/chirrido.mp3" type="audio/mp3">
-        </audio>
-    
 
 
         <div id="ventana" onmouseover="show('fant2'),sound('soundfantasma')" onmouseout="hide('fant2'),stop('soundfantasma')">
         
-
+        </div>
 
         <div id="fant">
             <img id="fant2" src="./img/fantasma.gif" alt="uwu">
         </div>
 
-        <audio id="soundfantasma">
-            <source src="./sound/sound fantasma.mp3" type="audio/mp3">
-        </audio>    
-        </div>
 
         <div id="lampara" onmouseover="sound('fuego')" onmouseout="stop('fuego')">
             
@@ -84,7 +71,20 @@
 
         </div>
 
+        <div id="ventanajumpscare" onclick="show2('jumpscare'),sound('jumpscaremusic')">
+
+        </div>
+
         
+
+        <audio id="musicafondo">
+            <source src="./sound/3 Minute Halloween Timer with Spooky Sounds Trim.mp3" type="audio/mp3">
+        </audio>  
+
+
+        <audio id="chirrido">
+            <source src="./sound/chirrido.mp3" type="audio/mp3">
+        </audio>
 
         <audio id="fuego">
             <source src="./sound/audio fuego brasero.mp3">
@@ -93,38 +93,37 @@
         <audio id="zombiesound">
             <source src="./sound/zombie sound.mp3">
         </audio>
+
+        <audio id="soundfantasma">
+            <source src="./sound/sound fantasma.mp3" type="audio/mp3">
+        </audio>   
         
-        <div id="ventanajumpscare" onclick="show2('jumpscare'),sound('jumpscaremusic')">
-
-        </div>
         
+        <div id="brujita">
 
-
-    </div>
-
-    <div id="brujita">
-
-        <div id="brujauwu" onclick="sound('risabruja')">
-            <img id="bruja" src="./img/bruja.png" alt="">
-        </div>
+            <div id="brujauwu" onclick="sound('risabruja')">
+                <img id="bruja" src="./img/bruja.png" alt="">
+            </div>
+        
+            <audio id="risabruja">
+                <source src="./sound/risa bruja.mp3">
+            </audio>
     
-        <audio id="risabruja">
-            <source src="./sound/risa bruja.mp3">
-        </audio>
+    
+            <img id="jumpscare" src="./img/jumpscare.webp" alt="">
+    
+            <audio id="jumpscaremusic">
+                <source src="./sound/sonido jumpscare fnaf.mp3">
+            </audio>
+    
+            <img id="zombie" src="./img/zombie.gif" alt="">
+            
+        </div>
 
 
-        <img id="jumpscare" src="./img/jumpscare.webp" alt="">
-
-        <audio id="jumpscaremusic">
-            <source src="./sound/sonido jumpscare fnaf.mp3">
-        </audio>
-
-        <img id="zombie" src="./img/zombie.gif" alt="">
-
-        <p id="textoterror">La Casa Del Terror</p>
-        <p id="textoterror2">Episodio final</p>
-        <p id="textoterror3">Boris</p>
     </div>
+
+    
     
     
         
