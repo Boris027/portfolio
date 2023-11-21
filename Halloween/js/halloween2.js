@@ -18,3 +18,23 @@ function show(element){
 function hide(element){
     document.getElementById(element).style.visibility="hidden";
 }
+
+function show2(element) {
+    // Mostrar el elemento
+    document.getElementById(element).style.visibility = "visible";
+
+    // Ocultar el elemento después de 5 segundos
+    setTimeout(function() {
+        document.getElementById(element).style.visibility = "hidden";
+    }, 4000); // 5000 milisegundos = 5 segundos
+}
+
+function caja(element){
+    document.getElementById(element).style.border="3px solid yellow";
+    
+}
+
+function caja2(element){
+    document.getElementById(element).style.border="0px solid yellow";
+    
+}

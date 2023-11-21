@@ -15,6 +15,9 @@
 
     <div id="scenario">
         <p id="uwu">Música</p>
+        <p id="pista">Pista</p>
+
+        
         <img src="./img/wallpaperwapo2.jpg" alt="fotowapa">
 
 
@@ -25,6 +28,15 @@
         <div id="botonmusic2" onclick="stop('musicafondo'),hide('botonmusic2'),show('botonmusic')">
 
         </div>
+
+        <div id="pistaboton" onclick="caja('ventanajumpscare'), caja('lampara'), caja('lampara2'), caja('ventana'), caja('puerta'), caja('cajabruja'),caja('cajazombie'),hide('pistaboton'),show('pistaboton2')">
+
+        </div>
+
+        <div id="pistaboton2" onclick="caja2('ventanajumpscare'), caja2('lampara'), caja2('lampara2'), caja2('ventana'), caja2('puerta'), caja2('cajabruja'),caja2('cajazombie'),hide('pistaboton2'),show ('pistaboton')">
+
+        </div>
+
 
 
         <audio id="musicafondo">
@@ -64,11 +76,27 @@
         
         </div>
 
+        <div id="cajabruja">
+
+        </div>
+
+        <div id="cajazombie" onmouseover="show('zombie'), sound('zombiesound')" onmouseout="hide('zombie'), stop('zombiesound')" >
+
+        </div>
+
+        
+
         <audio id="fuego">
             <source src="./sound/audio fuego brasero.mp3">
         </audio>
-        
 
+        <audio id="zombiesound">
+            <source src="./sound/zombie sound.mp3">
+        </audio>
+        
+        <div id="ventanajumpscare" onclick="show2('jumpscare'),sound('jumpscaremusic')">
+
+        </div>
         
 
 
@@ -84,10 +112,18 @@
             <source src="./sound/risa bruja.mp3">
         </audio>
 
+
         <img id="jumpscare" src="./img/jumpscare.webp" alt="">
 
+        <audio id="jumpscaremusic">
+            <source src="./sound/sonido jumpscare fnaf.mp3">
+        </audio>
 
-        
+        <img id="zombie" src="./img/zombie.gif" alt="">
+
+        <p id="textoterror">La Casa Del Terror</p>
+        <p id="textoterror2">Episodio final</p>
+        <p id="textoterror3">Boris</p>
     </div>
     
     
