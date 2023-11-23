@@ -41,25 +41,39 @@ display: block;
 width: 1550px;
 
 }
+/*posicion de la luna de pesadilla antes de navidad*/
+#lunawapa{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    visibility: hidden;
+}
 
+#gargola{
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    top: 30px;
+    left: 360px;
+}
+
+/*la caja de la puerta*/
 #puerta{
     position: absolute;
     width: 60px;
     height: 130px;
     bottom: 200px;
     right: 680px;
-    
 }
 
+/*todo lo relacionado con el fantasma*/
 #ventana{
     position: absolute;
     width: 70px;
     height: 110px;
     bottom: 230px;
-    right: 800px;
-    
+    right: 800px; 
 }
-
 #fant img {
     position:absolute;
     width: 100px;
@@ -69,6 +83,8 @@ width: 1550px;
     visibility: hidden;
 }
 
+/*Botones, aqui se encuentran el boton de pista y musica*/
+
 #botonmusic{
     border: 2px solid rgb(138, 187, 24);
     visibility: visible;
@@ -76,9 +92,7 @@ width: 1550px;
     width: 50px;
     height: 30px;
     bottom: 825px;
-    right: 1385px;
-    
-    
+    right: 1385px; 
 }
 
 #botonmusic2{
@@ -88,21 +102,16 @@ width: 1550px;
     width: 50px;
     height: 30px;
     bottom: 825px;
-    right: 1385px;
-    
-    
+    right: 1385px;   
 }
-
 #uwu{
     visibility: visible;
     position: absolute;
     left: 60px;
     
     padding: 5px;
-    color: blueviolet;
-    
+    color: blueviolet;   
 }
-
 #pista{
     visibility: visible;
     position: absolute;
@@ -111,7 +120,6 @@ width: 1550px;
     padding: 5px;
     color: blueviolet; 
 }
-
 #pistaboton{
     border: 2px solid rgb(138, 187, 24);
     visibility: visible;
@@ -130,15 +138,14 @@ width: 1550px;
     bottom: 825px;
     right: 1300px; 
 }
+/*La caja de las lamparas*/
 
 #lampara{
     position: absolute;
     width: 70px;
     height: 110px;
     bottom: 555px;
-    left: 310px;
-    
-
+    left: 310px; 
 }
 
 #lampara2{
@@ -150,7 +157,7 @@ width: 1550px;
     
 
 }
-
+/*todo lo relacionado con la bruja*/
 #cajabruja{
     position: absolute;
     width: 80px;
@@ -159,7 +166,39 @@ width: 1550px;
     left: 530px;
     
 }
+#brujita{
+    width: 1500px;
+    margin: auto;
+    position: relative;
+}
+#bruja{
+    position:absolute;
+    width: 130px;
+    top:-880px;
+    left:510px;
+    right: 1000px;
+}
+#risamovimiento{
+    font-family:'Terror2' ;
+    position: absolute;
+    color: brown;
+    font-size: 30px ;
+    top: -15px;
+    left: 480px;
+    animation-name: risamovimiento;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes risamovimiento{
+40%{
+    transform: rotate(15deg);
+}
+75%{
+    transform: rotate(-15deg);
+}
+}
+/*todo lo relacionado con el zombie*/
 #cajazombie{
     position: absolute;
     width: 100px;
@@ -177,19 +216,8 @@ width: 1550px;
     visibility: hidden;
 }
 
-#brujita{
-    width: 1500px;
-    margin: auto;
-    position: relative;
-}
-#bruja{
-    position:absolute;
-    width: 130px;
-    top:-880px;
-    left:510px;
-    right: 1000px;
-}
 
+/*todo lo relacionado con el jumpscare*/
 #jumpscare{
     visibility: hidden;
     position: absolute;
@@ -198,11 +226,7 @@ width: 1550px;
     right: 100px;
 }
 
-#sangre{
-    width: 1500px;
-    margin: auto;
-    position: absolute;
-}
+
 
 #ventanajumpscare{
     position: absolute;
@@ -213,6 +237,56 @@ width: 1550px;
     
 }
 
+#zzz{
+    font-family: 'Terror2';
+    font-size: 2em;
+    position: absolute;
+    color: brown;
+    right: 660px;
+    top: 370px;
+    animation-name: zzmovimiento;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes zzmovimiento{
+
+    50%{
+        font-size: 2.5em;
+        opacity: 50;
+    }
+
+    100%{
+        font-size: 2em;
+        right: 550px; 
+        top: 350px; 
+        opacity: 0;
+    }
+}
+
+
+
+#verja{
+    
+    visibility: visible;
+    position: absolute;
+    height: 560px;
+    width: 400px;
+    bottom: 0px;
+    left: 25px; 
+    transform: rotate(8deg);
+}
+#verja2{
+    
+    visibility: visible;
+    position: absolute;
+    height: 560px;
+    width: 400px;
+    bottom: 0px;
+    right: -28px; 
+    transform: rotate(-7deg);
+}
+
+/*texto y efectos de texto 1*/
 #textoterror{
     font-family: 'Terror';
     position: absolute;
@@ -226,6 +300,18 @@ width: 1550px;
     animation-duration: 7s;
 }
 
+@keyframes siniestro{
+    50%{
+        color: aqua;
+        font-size: 150px;
+        width: 1500px;
+        bottom: 300px;
+        right: -250px;
+    }
+    
+}
+
+/*texto y efectos de texto 2*/
 #textoterror2{
     font-family: 'Terror2';
     position: absolute;
@@ -237,8 +323,8 @@ width: 1550px;
     color: rgb(175, 190, 38);
     animation-name: cambiocolor;
     animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
-
 @keyframes cambiocolor{
     20%{color: aquamarine;}
     40%{color: rgb(59, 59, 209);}
@@ -258,16 +344,7 @@ width: 1550px;
 }
 
 
-@keyframes siniestro{
-    50%{
-        color: aqua;
-        font-size: 150px;
-        width: 1500px;
-        bottom: 300px;
-        right: -250px;
-    }
-    
-}
+
 
 #circulo{
     visibility: hidden;
@@ -297,23 +374,3 @@ width: 1550px;
 }
 
 
-#risamovimiento{
-    font-family:'Terror2' ;
-    position: absolute;
-    color: brown;
-    font-size: 30px ;
-    top: -15px;
-    left: 480px;
-    animation-name: risamovimiento;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes risamovimiento{
-40%{
-    transform: rotate(15deg);
-}
-75%{
-    transform: rotate(-15deg);
-}
-}

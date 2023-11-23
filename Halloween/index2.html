@@ -15,12 +15,14 @@
 
         <p id="uwu">Música</p>
         <p id="pista">Pista</p>
+        <img id="lunawapa" src="./img/luna wapa.png" alt="">
         <p id="risamovimiento">JAJAJA</p>
+        <p id="zzz">Z</p>
         <p id="textoterror">La Casa Del Terror</p>
         <p id="textoterror2">Episodio final</p>
         <p id="textoterror3">Boris</p>
         <p id="circulo">hola</p>
-
+        
         
         <img id="wallpaper" src="./img/wallpaperwapo2.jpg" alt="fotowapa">
 
@@ -33,11 +35,11 @@
 
         </div>
 
-        <div id="pistaboton" onclick="caja('ventanajumpscare'), caja('lampara'), caja('lampara2'), caja('ventana'), caja('puerta'), caja('cajabruja'),caja('cajazombie'),hide('pistaboton'),show('pistaboton2')">
+        <div id="pistaboton" onclick="caja('ventanajumpscare'), caja('lampara'), caja('lampara2'), caja('ventana'), caja('puerta'), caja('cajabruja'),caja('cajazombie'),hide('pistaboton'),show('pistaboton2'),caja('verja'),caja('verja2'),caja('gargola')">
 
         </div>
 
-        <div id="pistaboton2" onclick="caja2('ventanajumpscare'), caja2('lampara'), caja2('lampara2'), caja2('ventana'), caja2('puerta'), caja2('cajabruja'),caja2('cajazombie'),hide('pistaboton2'),show ('pistaboton')">
+        <div id="pistaboton2" onclick="caja2('ventanajumpscare'), caja2('lampara'), caja2('lampara2'), caja2('ventana'), caja2('puerta'), caja2('cajabruja'),caja2('cajazombie'),hide('pistaboton2'),show ('pistaboton'),caja2('verja'),caja2('verja2'),caja2('gargola')">
 
         </div>
 
@@ -75,7 +77,17 @@
 
         </div>
 
-        
+        <div id="verja" onclick="sound('verjasound')">
+
+        </div>
+
+        <div id="verja2" onclick="sound('verjasound')">
+
+        </div>
+
+        <div id="gargola" onmouseover="sound('gargolamusic'),show('lunawapa'),stop('musicafondo'),hide('bruja'),hide('risamovimiento')", onmouseout="stop('gargolamusic'),hide('lunawapa'),show('bruja'),show('risamovimiento')">
+
+        </div>
 
         <audio id="musicafondo">
             <source src="./sound/3 Minute Halloween Timer with Spooky Sounds Trim.mp3" type="audio/mp3">
@@ -96,7 +108,17 @@
 
         <audio id="soundfantasma">
             <source src="./sound/sound fantasma.mp3" type="audio/mp3">
-        </audio>   
+        </audio>  
+
+        <audio id="verjasound">
+            <source src="./sound/puerta verja.mp3" type="audio/mp3">
+        </audio> 
+
+        <audio id="gargolamusic">
+            <source src="./sound/this is halloween.mp3" type="audio/mp3">
+        </audio>  
+        
+        
         
         
         <div id="brujita">
